@@ -9,7 +9,9 @@ void setup () {
 void draw() {
   background(lightblue);
   house(200,200); //x,y
-  //house (300,200);
+  house (300,200);
+  house(400,200);
+  house(500,200);
 }
 
 void house(int x, int y) {
@@ -46,4 +48,20 @@ void Door(int x, int y) {
   rect(x, y, 50,100);
   rect(x,y,50,100);
   stroke(black);
+}
+
+void Windows() {
+  fill(beige);
+  stroke(black);
+  strokeWeight(2);
+  
+  // Left window
+  rect(25, 50, 75, 75);
+  line(25, 87.5, 100, 87.5); 
+  line(62.5, 50, 62.5, 125); 
+  
+  // Right window
+  rect(200, 50, 75, 75);
+  line(200, 87.5, 275, 87.5); 
+  line(237.5, 50, 237.5, 125); 
 }
