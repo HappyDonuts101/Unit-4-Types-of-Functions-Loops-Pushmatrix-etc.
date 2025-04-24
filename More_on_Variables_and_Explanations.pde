@@ -1,3 +1,5 @@
+//MORE ON VARIABLES AND EXPLANATIONS
+
 //Global Variables useful for being everywhere and accessible and modifiable everywhere. Problem is that there could be too many global variables.
 color beige = #fdf0d5;
 color red = #c1121f;
